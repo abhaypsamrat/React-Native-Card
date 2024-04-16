@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           lable="Varanasi, Uttar Pradesh"
           description="Varanasi is a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. Regarded as the spiritual capital of India, the city draws Hindu pilgrims who bathe in the Ganges River’s sacred waters and perform funeral rites"
         />
+        <ContactList />
         <ActionCard />
       </ScrollView>
     </SafeAreaView>
